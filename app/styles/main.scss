@@ -9,7 +9,23 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   color: #000;
   padding: 0.2em 0;
 }
+.content{
+  text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.main-content{
+  border: solid 1px black;
+  text-align:justify;
+  padding: 40px;
+}
 
+.add-module{
+  margin-top:30px;
+}
 body {
   padding: 0;
 }

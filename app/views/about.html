@@ -1,1 +1,10 @@
-<p>This is the about view.</p>
+<div class="content">
+	<h1>TODO List</h1>
+	<div class="main-content">
+		<activity-list></activity-list>
+		<div class="add-module">
+			<input type="text" placeholder="Add Something" ng-model="activity" required>
+			<button ng-click="activity && addActivity()">add</button>
+		</div>
+	</div>
+</div>
