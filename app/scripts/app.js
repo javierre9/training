@@ -24,10 +24,13 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
+      .when('/todo', {
+        templateUrl: 'views/todo.html',
         controller: 'AboutCtrl',
         controllerAs: 'about'
+      })
+      .when('/twitter', {
+        templateUrl: 'views/twitter.html'
       })
       .otherwise({
         redirectTo: '/'

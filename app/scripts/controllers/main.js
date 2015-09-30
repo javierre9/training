@@ -10,6 +10,8 @@
 angular.module('challenge1App')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
+    'ngSanitize',
+    'twitterApp.services',
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'

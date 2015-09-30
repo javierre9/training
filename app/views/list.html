@@ -1,3 +1,9 @@
 <ul>
-	<li ng-repeat = "activity in toDoList">{{activity}}</li>
+	<li ng-repeat = "activity in toDoList">
+		<span ng-hide="activity.finished" ng-click="removeActivity('{{activity.name}}')"class="glyphicon glyphicon-minus-sign" aria-hidden="true"></span>
+		<span ng-click="removeActivity('{{activity.name}}')"class="glyphicon glyphicon-ok" aria-hidden="true" ng-show="activity.finished"></span>
+		<label ng-hide="!activity.finished && editable">{{activity.name}}</label>
+		<input ng-show="!activity.finished && editable" placeholder="{{activity.name}}" ng-model="asd"+{activity.name}>
+		
+	</li>
 </ul>

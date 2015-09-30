@@ -11,6 +11,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 }
 .content{
   text-align: center;
+  margin-bottom:20px;
 }
 ul {
     list-style-type: none;
@@ -22,7 +23,9 @@ ul {
   text-align:justify;
   padding: 40px;
 }
-
+.activity{
+  width:150px;
+}
 .add-module{
   margin-top:30px;
 }
@@ -62,7 +65,17 @@ body {
 .container-narrow > hr {
   margin: 30px 0;
 }
-
+.glyphicon-minus-sign{
+  color:red;
+  margin-right: 10px;
+}
+input, label{
+  margin-top:5px;
+}
+.glyphicon-ok{
+  color:green;
+  margin-right:10px;
+}
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;

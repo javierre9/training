@@ -1,0 +1,13 @@
+<div class="content">
+	<h1>TODO List</h1>
+	<div class="main-content">
+		<activity-list></activity-list>
+		<div class="add-module">
+			<input ng-hide="editable" type="text" placeholder="Add Something" ng-model="activity">
+			<button ng-hide="editable" ng-click="activity && addActivity()">add</button>
+			<button ng-hide="editable" ng-click="editList()">Edit</button>
+			<button ng-show="editable" ng-click="stopEdit()">Cancel</button>
+			<button ng-show="editable" ng-click="edit()">Finish Edit</button>
+		</div>
+	</div>
+</div>
